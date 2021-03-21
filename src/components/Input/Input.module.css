@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.wrapper .label {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.wrapper .input {
+  padding: 6px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  background-color: unset;
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+.wrapper .input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.wrapper .input::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
